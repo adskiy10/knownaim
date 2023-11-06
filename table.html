@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="2" cellspacing="2" width="600" height="200">
+        <thead>
+            <tr>
+                <th colspan="3" width="200" height="40" bgcolor="#0066ff">MY FIRST TABLE</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td width="200" height="40" bgcolor="#0066ff">First cell</td>
+                <td width="200" height="40" bgcolor="#0066ff">Second cell</td>
+                <td rowspan="4" colspan="4" bgcolor="#ffff00">6 cells merged together</td>
+            </tr>
+            <tr>
+                <td width="200" height="40" colspan="2" bgcolor="#ffff00">2 cells merged into one</td>
+                </tr>
+            <tr>
+                <td width="200" height="40" rowspan="1" colspan="1" bgcolor="#ffff00">1st cell<br>3rd row</td>
+                <td awidth="200" height="40" rowspan="1" colspan="1" bgcolor="#ffff00">2nd cell<br>3rd row</td>
+            </tr>   
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3" width="200" height="40" bgcolor="#ffff00">Do you like tables?</th>
+            </tr>
+        </tfoot>  
+    </table>
+</body>
+</html>
